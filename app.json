@@ -1,0 +1,32 @@
+{
+  "name": "Kajabi Review Apps",
+  "description": "",
+  "website": "",
+  "repository": "https://github.com/kajabi/kajabi-products",
+  "logo": "https://kajabi.com/images/favicons/favicon-192.png",
+  "stack": "heroku-16",
+  "image": "heroku/ruby",
+  "scripts": {
+    "postdeploy": "",
+    "pr-predestroy": ""
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Standard-2X"
+    },
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.6"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
