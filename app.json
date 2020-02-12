@@ -1,8 +1,8 @@
 {
-  "name": "Kajabi Review Apps",
+  "name": "Dummy",
   "description": "",
   "website": "",
-  "repository": "https://github.com/kajabi/kajabi-products",
+  "repository": "https://github.com/kajabi/brentd-raisl4-dummy",
   "logo": "https://kajabi.com/images/favicons/favicon-192.png",
   "stack": "heroku-16",
   "image": "heroku/ruby",
@@ -14,7 +14,7 @@
     "web": {
       "quantity": 1,
       "size": "Standard-2X"
-    },
+    }
   },
   "addons": [
     {
