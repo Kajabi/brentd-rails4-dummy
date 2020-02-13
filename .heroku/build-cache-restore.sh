@@ -10,4 +10,4 @@ rclone cat :s3:$BUCKET/dummy/build-cache.tar.gz \
   --s3-secret-access-key $AWS_SECRET_KEY \
   --s3-provider AWS \
   --s3-region us-east-1 \
-  | tar -xpzf -
+  | tar -xpzvf -
