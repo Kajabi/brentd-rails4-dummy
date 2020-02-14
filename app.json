@@ -26,6 +26,9 @@
   ],
   "buildpacks": [
     {
+      "url": "https://github.com/Kajabi/heroku-buildpack-shared-build-cache-restore.git"
+    },
+    {
       "url": "heroku/ruby"
     }
   ]
