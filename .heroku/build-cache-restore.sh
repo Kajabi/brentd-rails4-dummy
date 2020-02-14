@@ -5,7 +5,7 @@ BUCKET=kajabi-pipeline-staging-build-cache
 
 cd $CACHE_DIR
 
-rclone cat :s3:$BUCKET/build-cache.tar.gz \
+rclone cat :s3:$BUCKET/dummy/build-cache.tar.gz \
   --s3-access-key-id $AWS_ACCESS_KEY \
   --s3-secret-access-key $AWS_SECRET_KEY \
   --s3-provider AWS \
